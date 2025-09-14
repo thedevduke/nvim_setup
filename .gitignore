@@ -1,0 +1,106 @@
+# Neovim Configuration .gitignore
+
+# Local Claude settings (machine-specific)
+.claude/
+
+# Log files
+logs/
+*.log
+
+# Neovim runtime files
+.netrwhist
+*~
+*.swp
+*.swo
+*.swn
+.swap/
+
+# Session files
+Session.vim
+*.vim.session
+
+# Tags files
+tags
+.tags
+tags.lock
+tags.temp
+
+# Language server and DAP
+.lsp/
+.dap/
+
+# Local plugin development
+/plugin/
+/after/
+/spell/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Compiled Lua
+*.luac
+
+# Lazy.nvim local data (keep lock file)
+lazy-lock-local.json
+
+# Mason installations (will be reinstalled on each machine)
+# Uncomment if you don't want to track Mason's installed servers
+# /mason/
+
+# Local notes or personal files
+.personal/
+personal/
+*.local.*
+local-*
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+/temp/
+
+# Undo history (if using persistent undo)
+/undo/
+/undodir/
+
+# Shada files (Neovim's viminfo)
+.shada
+shada/
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node modules (if any local JS tools)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE specific files (in case you open with other editors)
+.vscode/
+.idea/
+*.sublime-*
+
+# Core dumps
+core
+core.*
+
+# Vim package manager alternatives (if switching from others)
+/pack/
+/bundle/
+/plugged/
